@@ -1,0 +1,21 @@
+.OverFlow{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    z-index: 3;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.SideBlock{
+    width: 40%;
+    height: 100vh;
+    background-color: white;
+    position: fixed;
+    z-index: 4;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    transition: 0.3s;
+}
