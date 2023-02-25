@@ -7,18 +7,29 @@ function Header() {
 
     <Stack direction="horizontal" gap={3}>
     <div className='leftHeader'>
-      <img src="/img/hot-tea 1.png" width={40} height={40}/>
+      <img src="/img/logotip.png" width={175} height={140}/>
       <div className='leftHeaderText'>
-      <h1>REACT TEA</h1>
-      <p>Магазин лучшего чая</p>
+      <h1>SCAMERS</h1>
+      <p>BEST OF SKINCHANGER   </p>
       </div>
       </div>
 
       <div className='rightHeader ms-auto'>
-      <img src="/img/Group.svg" width={20} height={20}/>
-      <span>1500 р.</span>
-      <img src="/img/Union.svg" width={20} height={20}/>
-      <img src="/img/Favorite.svg" width={20} height={20}/>
+      <div className='peq'>
+        <img src="/img/Basket.png" width={30} height={30} style={{
+          margin: 'auto'
+        }}/>
+        <img src="/img/love.png" width={30} height={30} style={{
+          margin: 'auto'}}/>
+        <img src="/img/profile.png" width={30} height={30} style={{
+          margin: 'auto'}}/>
+      </div>
+      </div>
+      <div className='find'>
+          <span style={{
+            margin: "auto"
+          }}>Поиск...</span>
+           <img src='./img/find.png'></img>
       </div>
       </Stack>
     </div>

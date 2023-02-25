@@ -4,14 +4,14 @@ import { useState } from 'react';
 
 function Main(){
     const [on, setOn] = useState(false); 
-    const [off, setOff] = useState(true); 
+     const [off, setOff] = useState(true); 
 
-    const [onn, setOnn] = useState(false); 
-    const [offf, setOfff] = useState(true);
+     const [onn, setOnn] = useState(false); 
+     const [offf, setOfff] = useState(true);
 
-    const [onnn, setOnnn] = useState(false); 
-    const [offff, setOffff] = useState(true);
-     return(
+     const [onnn, setOnnn] = useState(false); 
+     const [offff, setOffff] = useState(true);
+    return(
     <>
     <img src="https://overplus.gg/_nuxt/img/icons.faa97ba.webp" className="AllItems"></img>
 

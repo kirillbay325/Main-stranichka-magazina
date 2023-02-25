@@ -19,3 +19,74 @@
     right: 0;
     transition: 0.3s;
 }
+.poloska{
+    border: 1px solid black;
+    width: 100%;
+    margin-bottom: 3%;
+    margin-top: -1%;
+}
+
+.MainProduct{
+    width: 95%;
+    height: 140px;
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 10px;
+    display: block;
+    flex-wrap: wrap;
+    position:relative;
+    overflow: hidden;
+}
+.kartinka_card_basket{
+   width: 130px;
+   height: 85px;
+   margin: 1%; 
+   position: absolute;
+   /* margin: auto;
+   left: 0;
+   top: 0;
+   bottom: 0;
+   right: 0;
+   vertical-align: middle; */
+}
+.Close{
+    width: 40px;
+    height: 40px;
+    top: 0;
+    right: 0;
+    border: 1px solid black;
+    border-radius: 15px;
+    position: absolute;
+}
+.Minus{
+    width: 40px;
+    height: 40px;
+    bottom: 0;
+    right: 0%;
+    border: 1px solid black;
+    border-radius: 15px;
+    position: absolute;
+}
+.Number{
+    width: 40px;
+    height: 40px;
+    bottom: 0;
+    right: 15%;
+    border: 1px solid black;
+    border-radius: 15px;
+    position: absolute;
+}
+.Plus{
+    width: 40px;
+    height: 40px;
+    bottom: 0;
+    right: 30%;
+    border: 1px solid black;
+    border-radius: 15px;
+    position: absolute;
+}
+
+.TextProduct{
+    position: absolute;
+    
+}
