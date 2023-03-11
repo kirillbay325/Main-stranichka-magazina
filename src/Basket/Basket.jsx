@@ -85,7 +85,7 @@ function Basket() {
 
   return (
     <>
-      <div className="OverFlow" style={styleOverflow} onClick={() => SetOpenCart(false)}></div>
+      <div className="OverFlow" style={styleOverflow} onClick={() => OnCloseCart()}></div>
       <div className="SideBlock" style={styleSideBlock}>
 
         {content}
